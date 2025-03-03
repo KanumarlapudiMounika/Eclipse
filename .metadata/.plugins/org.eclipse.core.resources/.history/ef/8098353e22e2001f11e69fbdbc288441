@@ -1,0 +1,42 @@
+package com.Mphasis.MyDemoProject;
+
+
+class animal{
+	public void Eat() {
+		System.out.println(" ");
+	}
+	public void Sound() {
+		System.out.println("gh ");
+	}
+}
+
+class Cat extends animal{
+	public void Eat() {
+		System.out.println("cat eats meat");
+	}
+	public void Sound() {
+		System.out.println("meowwwww!!!!!");
+	}
+}
+class Kitten extends Cat{
+	public void Eat() {
+		System.out.println(" drinks milk");
+	}
+	public void Age() {
+		System.out.println("i was recently born");
+	}
+	{
+	 super.Sound();
+     }
+}
+
+
+public class multilevel {
+		public static void main(String[] args) {
+			animal an=new animal();
+			Cat ca=new Cat();
+			ca.Eat();
+			Kitten ka =new Kitten();
+			ka.Age();
+		}
+}

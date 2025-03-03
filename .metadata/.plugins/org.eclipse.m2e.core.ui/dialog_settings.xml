@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\kanumarlapudi.m\eclipse-workspace\project1\src\main\java\pro1\Dao.java"/>
+			<item value="C:\Users\kanumarlapudi.m\eclipse-workspace\Sqlpractice\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.servlet.mvc.servletmvc1"/>
+			<item value="com.servletmvc.servletMVC"/>
+			<item value="geekpro.Springorm"/>
+			<item value="pro.mavenproject"/>
+			<item value="Hibernate1.firsthiber"/>
+			<item value="Hibernate1.first"/>
+			<item value="testing.unittesting"/>
+			<item value="MYSQLPROJECT.Sqlpractice"/>
+		</list>
+		<list key="groupId">
+			<item value="com.servlet.mvc"/>
+			<item value="com.servletmvc"/>
+			<item value="geekpro"/>
+			<item value="pro"/>
+			<item value="Hibernate1"/>
+			<item value="testing"/>
+			<item value="MYSQLPROJECT"/>
+		</list>
+		<list key="artifactId">
+			<item value="servletmvc1"/>
+			<item value="servletMVC"/>
+			<item value="Springorm"/>
+			<item value="mavenproject"/>
+			<item value="firsthiber"/>
+			<item value="first"/>
+			<item value="unittesting"/>
+			<item value="Sqlpractice"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\kanumarlapudi.m\Downloads\SpringMVC2"/>
+			<item value="C:\Users\kanumarlapudi.m\Downloads\SpringMVC"/>
+			<item value="C:\Users\kanumarlapudi.m\Downloads\demo"/>
+			<item value="C:\Users\kanumarlapudi.m\Downloads\demo\demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

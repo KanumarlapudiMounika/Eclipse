@@ -1,0 +1,34 @@
+package com.Mphasis.MyDemoProject;
+
+public class avgmulti {
+	
+ class values{
+	
+		public int a;
+		public int b;
+		public int c;
+ }
+		
+		
+class Add extends values{
+			 
+		 int adsd(int a,int b,int c) {
+			int sum=a+b+c;
+			return sum;
+		}
+		
+		 }
+	 class Average extends Add{
+		
+		public int Avg(int sum) {
+			int aver=sum/2;
+			return aver;
+			
+		}
+	}
+	 public static void main(String[] args) {
+		Add ad=new add(2,4,6);
+		 
+	 }
+
+}

@@ -1,0 +1,18 @@
+package com.springmvc.SpringMVC;
+import org.springframework.stereotype.Controller;  
+import org.springframework.web.bind.annotation.RequestMapping;  
+ 
+@RequestMapping("/reservation")  
+@Controller  
+public class HelloController { 
+	
+@RequestMapping("/bookingForm")  
+public String bookingForm(Model model)  
+{  
+      //create a reservation object   
+    Reservation res=new Reservation();  
+      //provide reservation object to the model   
+    model.addAttribute("reservation", res);  
+    return "reservation-page";  
+}  
+}

@@ -1,0 +1,32 @@
+package com.example.demo;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class DemoApp {
+	
+
+	// Main class 
+
+	 
+
+	// Main driver method 
+
+	  @SuppressWarnings("resource")
+	public static void main(String[] args)  
+
+	  { 
+
+	    // Creating object in a spring container (Beans) 
+
+	    AnnotationConfigApplicationContext  factory =new AnnotationConfigApplicationContext("C:\\Users\\kanumarlapudi.m\\Downloads\\demo\\demo\\constructorconfig.xml"); 
+
+	    Student student = (Student) factory.getBean("student"); 
+
+	 
+
+	    System.out.println(Student); 
+
+	  } 
+
+	} 
+

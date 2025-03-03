@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:Final"/>
+  <module moduleId="org.eclipse.jst.jee.server:AdvanceRedirect"/>
+  <module moduleId="org.eclipse.jst.jee.server:Filters"/>
+  <module moduleId="org.eclipse.jst.jee.server:SecondServlet" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:life"/>
+  <module moduleId="org.eclipse.jst.jee.server:project1" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:MoreServlet"/>
+  <module moduleId="org.eclipse.jst.jee.server:UrlRedirect"/>
+  <module moduleId="org.eclipse.jst.jee.server:FirstServlet"/>
+  <module moduleId="org.eclipse.jst.jee.server:annotation"/>
+</modules>

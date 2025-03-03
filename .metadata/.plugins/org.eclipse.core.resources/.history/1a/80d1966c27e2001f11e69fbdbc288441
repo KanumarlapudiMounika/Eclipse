@@ -1,0 +1,8 @@
+package com.Mphasis.MyDemoProject;
+
+public class difffiles {
+	public static void main(String[] args) {
+		values va=new values(2,4,6);
+		System.out.println(va.Add(3, 5, 7));
+	}
+}

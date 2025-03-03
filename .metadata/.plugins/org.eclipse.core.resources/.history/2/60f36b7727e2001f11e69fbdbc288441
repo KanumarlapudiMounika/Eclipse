@@ -1,0 +1,41 @@
+package com.Mphasis.MyDemoProject;
+
+
+
+
+
+
+public class avgmulti {
+	
+
+	package com.Mphasis.MyDemoProject;
+
+	public class values {
+		
+		public int a;
+		public int b;
+		public int c;
+		
+		
+		values(int i,int j,int k){
+			this.a=i;
+			this.b=j;
+			this.c=k;
+		}
+		
+		public int Add() {
+			int sum=a+b+c;
+			return sum;
+		}
+		
+	}
+	public class Average extends values{
+		
+		public int Avg(int sum) {
+			int aver=sum/2;
+			return aver;
+			
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.Mphasis.MyDemoProject;
+
+public class values {
+	
+	public int a;
+	public int b;
+	public int c;
+	public int sum;
+	
+	
+/*	values(int i,int j,int k){
+		this.a=i;
+		this.b=j;
+		this.c=k;
+	}
+	*/
+	public int Add(int i,int j,int k) {
+		sum=a+b+c;
+		return sum;
+	}
+	
+}

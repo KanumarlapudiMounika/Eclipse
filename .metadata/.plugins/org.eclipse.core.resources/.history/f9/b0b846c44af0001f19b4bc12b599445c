@@ -1,0 +1,5 @@
+package geekpro.Springorm;
+
+public class StudentDao {
+
+}

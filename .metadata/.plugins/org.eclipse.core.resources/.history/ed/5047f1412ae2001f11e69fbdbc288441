@@ -1,0 +1,11 @@
+package com.Mphasis.MyDemoProject;
+
+public class difffiles {
+	public static void main(String[] args) {
+		values va=new values();
+		int sum=va.Add(2,4,6);
+		System.out.println(sum);
+		New na=new New();
+		System.out.println("the average is :"+na.Av(sum));
+	}
+}

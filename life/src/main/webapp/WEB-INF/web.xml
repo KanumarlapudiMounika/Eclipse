@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>life</display-name>
+  <servlet>
+    <description></description>
+    <display-name>serve</display-name>
+    <servlet-name>erve</servlet-name>
+    <servlet-class>ServletL.serve</servlet-class>
+    <init-param>
+      <param-name>count</param-name>
+      <param-value>56</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>serve</servlet-name>
+    <url-pattern>/serve</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Serve</display-name>
+    <servlet-name>Serve</servlet-name>
+    <servlet-class>ServletL.serve</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serve</servlet-name>
+    <url-pattern>/Serve</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,14 @@
+package com.Mphasis.MyDemoProject;
+
+public class New extends difffiles {
+	public int Avg(int sum) {
+		int aver=sum/2;
+		return aver;
+	}
+}
+class Try extends values{
+	public void av(int sum) {
+		int re=sum/2;
+		System.out.println(re);
+	}
+}
